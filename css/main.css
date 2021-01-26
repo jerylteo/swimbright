@@ -1,0 +1,53 @@
+body {
+    font-family: aktiv-grotesk-extended, sans-serif !important;
+}
+.font-sub {
+    font-family: aktiv-grotesk, sans-serif !important;
+}
+
+#site-title a {
+    display: flex;
+    align-items: center;
+    height: 59px !important;
+    width: 182px !important;
+}
+#site-title a img {
+    object-fit: cover !important;
+}
+
+
+header#header .underline:hover {
+    text-underline-position: under;
+    text-decoration-thickness: 4px;
+}
+
+.scroll-nav {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-500 {
+    height: 35rem;
+}
+.w-500 {
+    width: 35rem;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: #3F72AF !important;
+}
+
+.btn {
+    background-color: #3F72AF;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: black !important;
+}
